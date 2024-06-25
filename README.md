@@ -7,7 +7,7 @@
 <div align="center">
 
 # 💫 About Me:
-Hey I'm Jason. I build cloud projects and useful tech. Check out some projects and what I'm up to.
+Hey I'm Jason. I build cloud projects and useful tech. Check out some projects and what I'm up to. Documented with TOGAF framework.
 
 [![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/sageideas/Cloud-Engineering-4226f44aa35e4c6e9142dc951bf550a0?pvs=4) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jason-teixeira/) 
