@@ -6,40 +6,38 @@
 
 ## Table of Contents
 
+- [Start Here](#start-here)
 - [Projects](#projects)
+- [Project Intentions](#project-intentions)
 - [Business Considerations for Every Project](#business-considerations-for-every-project)
 - [TOGAF Framework (For Reference)](#togaf-framework-for-reference)
-- [Cloud Stack](#cloudtech-stack)
-- [Project Intentions](#project-intentions)
+- [Cloud/Tech Stack](#cloudtech-stack)
+  
+## Start Here
 
-## Start Here:
+Hey, I'm Jason. I use the TOGAF Framework to document projects. Since every Solution is different, in each project I have included "How to build" the foundational infrastructure and supplement the documentation with supporting configurations for growth that all consider the following: Security, Scalability, Reliability, Operational Excellence, Performance, and Cost Optimization. If you want to read my notes on the intention behind each project, they will be included at the bottom of the page.
 
-Hey I'm Jason. I use the TOGAF Framework to document projects. Since every Solution is different, in each project I have included 
-"How to build" the foundational infrustructure and suppliment the documentation with supporting configurations for growth that all considering the following;
-Security, Scalability, Reliability, Operational Excellence, Performance, and Cost Optimization. 
-If you want to read my notes on the intention behind each project they will be included 
-on the bottom on the page.
-
-Each project will include the following Artifacts if applicable to the Solution;
+Each project will include the following Artifacts if applicable to the Solution:
 
 - Intro Video
 - Requirements Specification
 - Architecture Document Overview
 - Design Diagrams (High Level, Detailed Architecture Diagrams, Data Flow, Sequence)
-- Security architecture Plan
+- Security Architecture Plan
 - Operational Excellence Plan
 - Performance/Efficiency Plan
-- Cost Optimazation Plan
+- Cost Optimization Plan
 - Reliability Plan
-- Source code
-- Configuration files (IAC etc.)
+- Source Code
+- Configuration Files (IAC etc.)
 - Testing
 - CI/CD Environment
 - Monitoring and Logging
 - Scripts
-- Route files
+- Route Files
 
-## Projects:
+<details>
+<summary><h3>Projects</h3></summary>
 
 ### Cloud Architecture
 
@@ -118,67 +116,27 @@ Each project will include the following Artifacts if applicable to the Solution;
 - [**Load Balanced Web App**](https://github.com/JasonTeixeira/Load-Balanced-Web-App): Demonstrates the setup of a load-balanced web application for high availability.
 - [**S3ish Object Storage Design**](https://github.com/JasonTeixeira/S3ish-Object-Storage-Design): Illustrates the design of an object storage system similar to AWS S3.
 
-## Cloud/Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)   
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) 
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) 
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) 
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) 
-![Grafana](https://img.shields.io/badge/grafana-F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) 
-![Prometheus](https://img.shields.io/badge/prometheus-E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white) 
-![Chef](https://img.shields.io/badge/Chef-ED2B2D?style=for-the-badge&logo=chef&logoColor=white) 
-![Puppet](https://img.shields.io/badge/Puppet-FFAE1A?style=for-the-badge&logo=puppet&logoColor=white) 
-![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) 
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) 
-![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) 
-![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) 
-![Amazon DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) 
-![Apache Cassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) 
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 
-![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
-![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white) 
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) 
-![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+</details>
 
-</div>
+<details>
+<summary><h3>Project Intentions</h3></summary>
 
-## Project Intentions:
+Pretty Simple. Projects build experience (You won't find copied projects here). When I started learning Cloud I knew I didn't want to just learn how a service works without knowing what it does within a larger context. I come from a business background and I know fundamentally the tech serves the business, not the other way around. Inherently this means simplifying the system as much as possible. There are a thousand things to consider with each configuration change in an enterprise setting. Literally.
 
-Pretty Simple. Projects build experience (You won't find copied projects here). When I started learning Cloud I knew I didn't want to just learn how a service works
-without knowing what it does within a larger context. I come from a business background and I know fundamentally the tech serves the business, not the other way around.
-Inherently this means simplifying the system as much as possible. There are a thousand things to consider with each configuration change in an enterprise setting. Literally.
+The way I've structured the Public Projects is how I would do it by first gathering requirements from the business. Things like how it operates, what tech it needs, handling customer information based on the field, adhering to compliance requirements, considering security, scaling to millions of users, a structured recovery plan ... very long list of considerations as you can imagine.
 
-The way I've structure the Public Projects is how I would do it by first gathering requirements from the business. Things like how it operates, what tech it needs,
-handling customer information based on the field, adhering to compliance requirements, considering security, scaling to millions of users,
-a structured recovery plan ... very long list of considerations as you can imagine.
+If you look at any Sr. level Architect, their architecture is not publicly available, that would be a disaster. 99% of systems are proprietary within the confines of internal OPA's. Why am I telling you this? It is an extremely specific endeavor to build a system from scratch. Literally every system ever built shares many of the same components but are never "exactly" identical. This makes sense, no two business do exactly the same thing. understandably, their solutions share that in common. (This is why new hires typically spend their first three months reading the company's current architectural/technical documentation. I know you know what I'm talking about)
 
-If you look at any Sr. level Architect, their architecture is not publicly available, that would be a disaster. 99% of systems are proprietary within the confines of
-internal OPA's. Why am I telling you this? It is an extremely specific endeavor to build a system from scratch. Literally every system ever built shares many of the same
-components but are never "exactly" identical. This makes sense, no two business do exactly the same thing. understandably, their solutions share that in common.
-(This is why new hires typically spend their first three months reading the company's current architectural/technical documentation. I know you know what I'm talking about)
+There are many private repositories that I am always actively working on that will be made available as they are ready for "real-world" applications. I have done my absolute best to build each project in an actual business setting putting the needs of the business first. Some challenges however are documenting in a framework that is accepted by the entire industry. It doesn't exist. Every company will document slightly different than the next. I've settled on the TOGAF framework as I felt that it structurally makes sense and is also malleable enough to accept different inputs.
 
-There are many private repositories that I am always actively working on that will be made available as they are ready for "real-world" applications. I have done my absolute
-best to build each project in a actual business setting putting the needs of the business first. Some challenges however are documenting in a framework that is accepted by
-the entire industry. It doesn't exist. Every company will document slightly different than the next. I've settled on the TOGAF framework as I felt that it
-structurally makes sense and is also malleable enough to accept different inputs.
-
-So behind every project rather than leaving it ambiguous I thought it would be beneficial and strategic to include an extensive list of considerations for almost all solutions
-down below. Commonalities that are discussed and weighted based on a multitude of different factors. I will organize them based on categories. It is my intention that behind
-every project done recreationally or professionally it is heavily inferred that these considerations are always in sight, even if they are not technically "documented".
+So behind every project rather than leaving it ambiguous I thought it would be beneficial and strategic to include an extensive list of considerations for almost all solutions down below. Commonalities that are discussed and weighted based on a multitude of different factors. I will organize them based on categories. It is my intention that behind every project done recreationally or professionally it is heavily inferred that these considerations are always in sight, even if they are not technically "documented".
 
 If interested, visit my blog with my projects and thought experiments where I share common issues encountered and how I approach them.
+</details>
 
-## Business Considerations For Every Project
+<details>
+  
+<summary><h3>Business Considerations For Every Project</h3></summary>
 
 #### Strategic Alignment
 <details>
@@ -474,8 +432,12 @@ If interested, visit my blog with my projects and thought experiments where I sh
 
 </details>
 
+</details>
 
-## TOGAF Framework (Similar to abvoce for reference)
+
+<details>
+  
+<summary><h3>TOGAF Framework (For Reference)</h3></summary>
 
 ### Repository Structure
 
@@ -587,4 +549,37 @@ The repository is organized into the following directories, each corresponding t
   - Requirements Specification
 - **Produced**: Throughout the ADM cycle.
 - **Stored**: In the `Requirements_Management` directory.
+</details>
 
+## Cloud/Tech Stack
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)   
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) 
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) 
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) 
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) 
+![Grafana](https://img.shields.io/badge/grafana-F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) 
+![Prometheus](https://img.shields.io/badge/prometheus-E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white) 
+![Chef](https://img.shields.io/badge/Chef-ED2B2D?style=for-the-badge&logo=chef&logoColor=white) 
+![Puppet](https://img.shields.io/badge/Puppet-FFAE1A?style=for-the-badge&logo=puppet&logoColor=white) 
+![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) 
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) 
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) 
+![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) 
+![Amazon DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) 
+![Apache Cassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) 
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) 
+![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white) 
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) 
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
