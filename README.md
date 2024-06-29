@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.cloudopedia.in/wp-content/uploads/2019/03/cloud-computing-GIF.gif" alt="Cloud Computing GIF" width="100%">
+<img src="https://www.cloudopedia.in/wp-content/uploads/2019/03/cloud-computing-GIF.gif" alt="Cloud Computing GIF" width="50%">
 </p>
 
 <div align="left">
@@ -15,7 +15,7 @@
   
 ## Start Here
 
-Hey, I'm Jason. I use the TOGAF Framework to document projects. Since every Solution is different, in each project I have included "How to build" the foundational infrastructure and supplement the documentation with supporting configurations for growth that all consider the following: Security, Scalability, Reliability, Operational Excellence, Performance, and Cost Optimization. If you want to read my notes on the intention behind each project, they will be included at the bottom of the page.
+Hey, I'm Jason. I use the TOGAF Framework to document projects. Since every Solution is different, in each project I have included "How To Build" the foundational infrastructure guide and supplement the documentation with supporting configurations for growth that all consider the following; Security, Scalability, Reliability, Operational Excellence, Performance, and Cost Optimization. If you want to read my notes on the intention behind each project, they will be included at the bottom of the page.
 
 Each project will include the following Artifacts if applicable to the Solution:
 
@@ -36,9 +36,9 @@ Each project will include the following Artifacts if applicable to the Solution:
 - Scripts
 - Route Files
 
+
 <details>
 <summary><h3>Projects</h3></summary>
-
 ### Cloud Architecture
 
 - [**Cloud Resume Challenge AWS**](https://github.com/JasonTeixeira/Cloud-Resume-Challenge_AWS): Demonstrates proficiency in AWS services, infrastructure as code, and CI/CD pipelines.
@@ -120,22 +120,20 @@ Each project will include the following Artifacts if applicable to the Solution:
 
 <details>
 <summary><h3>Project Intentions</h3></summary>
+<p>Pretty Simple. Projects build experience (You won't find copied projects here). When I started learning Cloud I knew I didn't want to just learn how a service works without knowing what it does within a larger context. I come from a business background and I know fundamentally the tech serves the business, not the other way around. Inherently this means simplifying the system as much as possible. There are a thousand things to consider with each configuration change in an enterprise setting. Literally.</p>
 
-Pretty Simple. Projects build experience (You won't find copied projects here). When I started learning Cloud I knew I didn't want to just learn how a service works without knowing what it does within a larger context. I come from a business background and I know fundamentally the tech serves the business, not the other way around. Inherently this means simplifying the system as much as possible. There are a thousand things to consider with each configuration change in an enterprise setting. Literally.
+<p>The way I've structured the Public Projects is how I would do it by first gathering requirements from the business. Things like how it operates, what tech it needs, handling customer information based on the field, adhering to compliance requirements, considering security, scaling to millions of users, a structured recovery plan ... very long list of considerations as you can imagine.</p>
 
-The way I've structured the Public Projects is how I would do it by first gathering requirements from the business. Things like how it operates, what tech it needs, handling customer information based on the field, adhering to compliance requirements, considering security, scaling to millions of users, a structured recovery plan ... very long list of considerations as you can imagine.
+<p>If you look at any Sr. level Architect, their architecture is not publicly available, that would be a disaster. 99% of systems are proprietary within the confines of internal OPA's. Why am I telling you this? It is an extremely specific endeavor to build a system from scratch. Literally every system ever built shares many of the same components but are never "exactly" identical. This makes sense, no two business do exactly the same thing. understandably, their solutions share that in common. (This is why new hires typically spend their first three months reading the company's current architectural/technical documentation. I know you know what I'm talking about)</p>
 
-If you look at any Sr. level Architect, their architecture is not publicly available, that would be a disaster. 99% of systems are proprietary within the confines of internal OPA's. Why am I telling you this? It is an extremely specific endeavor to build a system from scratch. Literally every system ever built shares many of the same components but are never "exactly" identical. This makes sense, no two business do exactly the same thing. understandably, their solutions share that in common. (This is why new hires typically spend their first three months reading the company's current architectural/technical documentation. I know you know what I'm talking about)
+<p>There are many private repositories that I am always actively working on that will be made available as they are ready for "real-world" applications. I have done my absolute best to build each project in an actual business setting putting the needs of the business first. Some challenges however are documenting in a framework that is accepted by the entire industry. It doesn't exist. Every company will document slightly different than the next. I've settled on the TOGAF framework as I felt that it structurally makes sense and is also malleable enough to accept different inputs.</p>
 
-There are many private repositories that I am always actively working on that will be made available as they are ready for "real-world" applications. I have done my absolute best to build each project in an actual business setting putting the needs of the business first. Some challenges however are documenting in a framework that is accepted by the entire industry. It doesn't exist. Every company will document slightly different than the next. I've settled on the TOGAF framework as I felt that it structurally makes sense and is also malleable enough to accept different inputs.
+<p>So behind every project rather than leaving it ambiguous I thought it would be beneficial and strategic to include an extensive list of considerations for almost all solutions down below. Commonalities that are discussed and weighted based on a multitude of different factors. I will organize them based on categories. It is my intention that behind every project done recreationally or professionally it is heavily inferred that these considerations are always in sight, even if they are not technically "documented".</p>
 
-So behind every project rather than leaving it ambiguous I thought it would be beneficial and strategic to include an extensive list of considerations for almost all solutions down below. Commonalities that are discussed and weighted based on a multitude of different factors. I will organize them based on categories. It is my intention that behind every project done recreationally or professionally it is heavily inferred that these considerations are always in sight, even if they are not technically "documented".
-
-If interested, visit my blog with my projects and thought experiments where I share common issues encountered and how I approach them.
+<p>If interested, visit my blog with my projects and thought experiments where I share common issues encountered and how I approach them.</p>
 </details>
 
 <details>
-  
 <summary><h3>Business Considerations For Every Project</h3></summary>
 
 #### Strategic Alignment
@@ -431,12 +429,9 @@ If interested, visit my blog with my projects and thought experiments where I sh
 - **Vendor Risks**: Are vendor risks assessed and managed?
 
 </details>
-
 </details>
 
-
 <details>
-  
 <summary><h3>TOGAF Framework (For Reference)</h3></summary>
 
 ### Repository Structure
@@ -549,9 +544,13 @@ The repository is organized into the following directories, each corresponding t
   - Requirements Specification
 - **Produced**: Throughout the ADM cycle.
 - **Stored**: In the `Requirements_Management` directory.
-</details>
 
-## Cloud/Tech Stack
+</details>
+</body>
+</html>
+
+
+### Cloud/Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
