@@ -39,6 +39,7 @@ Each project will include the following Artifacts if applicable to the Solution:
 
 <details>
 <summary><h3>Projects</h3></summary>
+  
 ### Cloud Architecture
 
 - [**Cloud Resume Challenge AWS**](https://github.com/JasonTeixeira/Cloud-Resume-Challenge_AWS): Demonstrates proficiency in AWS services, infrastructure as code, and CI/CD pipelines.
